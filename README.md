@@ -1,5 +1,28 @@
 # 364final
 
+### **My Application Description**
+
+  My application allows users to search for the favorite movies and retrieve information including the rating of the movie and the top five actors from the movie. This data is retrieved from The Movie Database API. The user's movies they search and the data with them is stored in a table. In addition, the user is able to create and name a collection of their favorite casts from the movies they have searched. This data is also stored in a table. Users must register, and login to the application to access this feature. Users are also able to view their past searches and all the collections they have saved. The user is not required to login to search the application. Users can search any movie name, as long as it is included on The Movie Database API.
+  
+  
+There are no modules that need to be installed other than the ones we have already installed in class.
+
+**Routes**
+
+/login -> login.html
+/logout -> logout.html
+/register -> register.html
+/ -> index.html (home page)
+/movie_searches -> movie_searches.html
+/search_movie -> search_movie.html
+/movie_info -> movie_info.html
+/create_collection -> create_collection.html
+/collections -> collections.html
+/delete/<movie_d> -> index.html (deletes a movie from database)
+/update/<lst> -> update.html
+/collection -> collection.html
+
+
 ### **Documentation README Requirements**
 
 - [ ] **Create a `README.md` file for your app that includes the full list of requirements from this page. The ones you have completed should be bolded or checked off. (You bold things in Markdown by using two asterisks, like this: `**This text would be bold** and this text would not be`)**
