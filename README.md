@@ -2,7 +2,7 @@
 
 ### **My Application Description**
 
-  My application allows users to search for the favorite movies and retrieve information including the rating of the movie and the top five actors from the movie. This data is retrieved from The Movie Database API. The user's movies they search and the data with them is stored in a table. In addition, the user is able to create and name a collection of their favorite casts from the movies they have searched. This data is also stored in a table. Users must register, and login to the application to access this feature. Users are also able to view their past searches and all the collections they have saved. The user is not required to login to search the application. Users can search any movie name, as long as it is included on The Movie Database API.
+  My application allows users to search for their favorite movies and retrieve information including the rating of the movie and the top five actors from the movie. This data is retrieved from The Movie Database API. The user's movies they search and the data with them is stored in a table. In addition, the user is able to create and name a collection of their favorite casts from the movies they have searched. This data is also stored in a table. Users must register, and login to the application to access this feature. Users are also able to view their past searches and all the collections they have saved. The user is not required to login to search the application. Users can search any movie name, as long as it is included on The Movie Database API.
   
   
 There are no modules that need to be installed other than the ones we have already installed in class.
