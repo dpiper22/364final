@@ -1,0 +1,16 @@
+{% extends 'index.html' %}
+
+{% block navigation %}
+    {{ super() }}
+{% endblock %}
+
+{% block main_content %}
+
+<h1>Movie Rating and Main Cast</h1>
+
+		<p>Name: {{ movie }}</p>
+		<p>Rating: {{ rating }}</p>
+		<p>Main Actors: {{ actors }}</p>
+
+
+{% endblock %}

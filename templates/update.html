@@ -1,0 +1,26 @@
+{% extends 'index.html' %}
+
+{% block navigation %}
+    {{ super() }}
+{% endblock %}
+
+{% block main_content %}
+
+<p>
+<div>
+	{% for message in get_flashed_messages() %} 
+	{{ message }}
+	{% endfor %}
+</div>
+</p>
+
+<br>
+<br>
+<form method="POST" action="/update/{{ lst }}">
+	{{ form.hidden_tag() }}
+	{{ form.new_movie.label }} {{ form.new_movie() }} <br>
+	{{ form.submit() }}
+</form>
+
+
+{% endblock %}

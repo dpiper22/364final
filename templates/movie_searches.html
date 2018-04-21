@@ -1,0 +1,48 @@
+<h1> All gifs </h1>
+{% extends 'index.html' %}
+{% block navigation %}
+ {{ super() }}
+{% endblock %}
+
+{% block main_content %}
+<ul>
+{% for m in all_movies %}
+<li>
+  <h4>{{ m.movie }}</h4>
+  </br>
+  	<p>Rating: {{ m.rating }}</p>
+  	<p>Main Actors: {{ m.actors }}</p>
+
+</li>
+<br>
+
+</ul>
+
+
+
+<div>
+{% for message in get_flashed_messages() %}
+<strong>*** {{ message }} ***</strong>
+{% endfor %}
+</div>
+
+<form method="POST" action="/delete/{{ m.movie }}">
+		{{ form_d.hidden_tag() }}
+		{{ form_d.submit() }}
+	</form>
+
+
+<form method="POST" action="/update/{{ m.movie }}">
+	{{ form.hidden_tag() }}
+	{{ form.submit() }}
+	</form>
+	</li> 
+{% endfor %}
+
+{% if not movie_searches %}
+There are no saved movies to show.
+{% endif %}
+
+
+<a href="{{ url_for('index')}}">Return to search for new movies</a>
+{% endblock %}

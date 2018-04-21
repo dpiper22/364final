@@ -1,0 +1,12 @@
+{% extends 'index.html' %}
+
+
+{% block content %}
+
+<form action = "{{ url_for('movie_info') }}" method = "POST">
+	{{ form.hidden_tag() }}
+	{{ form.search.label() }}{{ form.search() }}
+	{{ form.submit() }}
+</form>
+
+{% endblock %}

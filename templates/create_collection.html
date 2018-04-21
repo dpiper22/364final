@@ -1,0 +1,17 @@
+<h1>Create a new collection of favotire cast of actors</h1>
+{% extends 'index.html' %}
+
+{% block navigation %}
+ {{ super() }}
+{% endblock %}
+
+{% block main_content %}
+
+<form action="" method="POST">
+	{{ form.hidden_tag() }}
+	{{ form.name.label }} {{ form.name() }}
+	{{ form.choose_actors.label }} {{ form.choose_actors() }}
+	{{ form.submit.label }}{{ form.submit() }}
+</form>
+
+{% endblock %}
