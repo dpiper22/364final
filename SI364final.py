@@ -1,4 +1,4 @@
-#SI364 Final Project Setup code
+#SI364 Final Project
 #By: David Piper
 
 #imports
