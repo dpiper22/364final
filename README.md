@@ -26,7 +26,7 @@ There are no modules that need to be installed other than the ones we have alrea
 
 ### **Documentation README Requirements**
 
-- [ ] **Create a `README.md` file for your app that includes the full list of requirements from this page. The ones you have completed should be bolded or checked off. (You bold things in Markdown by using two asterisks, like this: `**This text would be bold** and this text would not be`)**
+- [ ] **Create a `README.md` file for your app that includes the full list of requirements from this page. The ones you have completed should be bolded or checked off**
 
 - [ ] **The `README.md` file should use markdown formatting and be clear / easy to read.**
 
@@ -36,7 +36,7 @@ There are no modules that need to be installed other than the ones we have alrea
 
 - [ ] **The `README.md` file should include a list of every module that must be installed with `pip` if it's something you installed that we didn't use in a class session. If there are none, you should note that there are no additional modules to install.**
 
-- [ ] **The `README.md` file should include a list of all of the routes that exist in the app and the names of the templates each one should render OR, if a route does not render a template, what it returns (e.g. `/form` -> `form.html`, like [the list we provided in the instructions for HW2](https://www.dropbox.com/s/3a83ykoz79tqn8r/Screenshot%202018-02-15%2013.27.52.png?dl=0) and like you had to on the midterm, or `/delete -> deletes a song and redirects to index page`, etc).**
+- [ ] **The `README.md` file should include a list of all of the routes that exist in the app and the names of the templates each one should render OR, if a route does not render a template, what it returns**
 
 
 ### **Code Requirements**
@@ -46,11 +46,11 @@ There are no modules that need to be installed other than the ones we have alrea
 
 - [ ] **A user should be able to load `http://localhost:5000` and see the first page they ought to see on the application.**
 
-- [ ] **Include navigation in `base.html` with links (using `a href` tags) that lead to every other page in the application that a user should be able to click on. (e.g. in the lecture examples from the Feb 9 lecture, [like this](https://www.dropbox.com/s/hjcls4cfdkqwy84/Screenshot%202018-02-15%2013.26.32.png?dl=0) )**
+- [ ] **Include navigation in `base.html` with links (using `a href` tags) that lead to every other page in the application that a user should be able to click on.**
 
 - [ ] **Ensure that all templates in the application inherit (using template inheritance, with `extends`) from `base.html` and include at least one additional `block`.**
 
-- [ ] **Must use user authentication (which should be based on the code you were provided to do this e.g. in HW4).**
+- [ ] **Must use user authentication**
 
 - [ ] **Must have data associated with a user and at least 2 routes besides `logout` that can only be seen by logged-in users.**
 
@@ -74,7 +74,7 @@ There are no modules that need to be installed other than the ones we have alrea
 
 - [ ] **At least one error handler for a 404 error and a corresponding template.**
 
-- [ ] **At least one error handler for any other error (pick one -- 500? 403?) and a corresponding template.**
+- [ ] **At least one error handler for any other error and a corresponding template.**
 
 - [ ] **Include at least 4 template `.html` files in addition to the error handling template files.**
 
