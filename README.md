@@ -1,4 +1,4 @@
-# 364final
+# SI364 Final Project: Web Application for Searching Movies and their Top Actors
 
 ### **My Application Description**
 
